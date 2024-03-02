@@ -18,7 +18,7 @@ The research community has shown a great interest in transformer-based structure
 ## How to use
 ### Installation
 ```bash
-git clone 
+git clone https://github.com/ZQuang2202/ConvmixFormer-UNet.git
 pip install -r requirements.txt
 ```
 
