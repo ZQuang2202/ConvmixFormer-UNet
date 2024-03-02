@@ -1,7 +1,7 @@
 # ConvmixFormer-Unet: A New Approach for Medical Image Segmentation based on Convmixer and Transformer
 This is the official code for [ConvmixFormer Unet](https://ieeexplore.ieee.org/document/10382399). 
 ## Introduction
-The research community has shown a great interest in transformer-based structures because of their capacity to understand contextual data and dependencies over long distances, even though they demand substantial computational resources. To overcome this challenge, the MLP-mixer approach offers an alternative to attention token-mix by employing MLP and transpose operations and the results are promising. This ap- proach also showed advantages over the CNN-based models that utilize local information but often neglect global contexts. In the current study, we introduce a novel segmentation model called ConvmixFormer Unet, which leverages the strengths of the Former structure and a CNN-based network. Our model incorporates the ConvmixFormer block in the encoder stage, where the Former structure is utilized by substituting the token-mix layer with a Multi-scale ConvMixer token-mix block while retaining the channel-mix layer. The Convmix Transpose blocks are also proposed in the decoder stage. We assess the effectiveness of our proposed method by employing three distinct datasets, namely GlaS, Data Science Bowl 2018, and ISIC 2018. Additionally, we evaluate our approach against the most advanced models. The findings demonstrate that our proposed model achieves a significant improvement in performance while reducing remarkably the overall number of model parameters.
+The research community has shown a great interest in transformer-based structures because of their capacity to understand contextual data and dependencies over long distances, even though they demand substantial computational resources. To overcome this challenge, the MLP-mixer approach offers an alternative to attention token-mix by employing MLP and transpose operations and the results are promising. This approach also showed advantages over the CNN-based models that utilize local information but often neglect global contexts. In the current study, we introduce a novel segmentation model called ConvmixFormer Unet, which leverages the strengths of the Former structure and a CNN-based network. Our model incorporates the ConvmixFormer block in the encoder stage, where the Former structure is utilized by substituting the token-mix layer with a Multi-scale ConvMixer token-mix block while retaining the channel-mix layer. The Convmix Transpose blocks are also proposed in the decoder stage. We assess the effectiveness of our proposed method by employing three distinct datasets, namely GlaS, Data Science Bowl 2018, and ISIC 2018. Additionally, we evaluate our approach against the most advanced models. The findings demonstrate that our proposed model achieves a significant improvement in performance while reducing remarkably the overall number of model parameters.
 
 ## Methodology
 - General structure of ConvmixFormer Unet
@@ -10,6 +10,7 @@ The research community has shown a great interest in transformer-based structure
 ![ConvmixFormer](images/ConvMixFormer.png)
 - Multi-scale block
 <img src="images/MultiScaleBlock.png" alt="Image Description" width="400"/>
+
 - Squeeze and Excite block 
 ![SE+](images/SE+.png)
 - Decoder block
