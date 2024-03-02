@@ -9,7 +9,7 @@ The research community has shown a great interest in transformer-based structure
 - ConvMixFormer block
 ![ConvmixFormer](images/ConvMixFormer.png)
 - Multi-scale block
-<img src="images/MultiScaleBlock.png alt="Image Description" width="400"/>
+<img src="images/MultiScaleBlock.png" alt="Image Description" width="400"/>
 - Squeeze and Excite block 
 ![SE+](images/SE+.png)
 - Decoder block
