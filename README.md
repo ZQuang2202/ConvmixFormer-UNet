@@ -9,7 +9,7 @@ The research community has shown a great interest in transformer-based structure
 - ConvMixFormer block
 ![ConvmixFormer](images/ConvMixFormer.png)
 - Multi-scale block
-![MSblock](images/MultiScaleBlock.png)
+<img src="images/MultiScaleBlock.png alt="Image Description" width="400"/>
 - Squeeze and Excite block 
 ![SE+](images/SE+.png)
 - Decoder block
@@ -61,7 +61,7 @@ export CUDA_VISIBLE_DEVICES=0 & python3 test.py \
 | ConvmixFormer (Ours)                        | 8.6                 | **91.73**  | **84.54** |
 
 ###  omparative evaluation results of the proposed model and previously proposed approaches on the Gland Segmentation dataset and Data Science Bowl 2018 dataset
-| **Models**       | **Params**  <br>  **(M)** | **GlaS**   |            | **Bowl**   |            |
+| **Models**       | **Params** **(M)**        | **GlaS**   |            | **Bowl**   |            |
 | :--------------: | :-----------------------: | :--------: | :--------: | :--------: | :--------: |
 |                  |                           | **Dice**   | **IoU**    | **Dice**   | **IoU**    |
 | U-Net            | 31\.1                     | 80\.84     | 68\.99     | 90\.60     | 83\.27     |
