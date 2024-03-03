@@ -32,7 +32,7 @@ export CUDA_VISIBLE_DEVICE=0 & python3 train.py \
     --y-test-dir ./data/y_test.npy \
     --x-val-dir ./data/x_val.npy \
     --y-val-dir ./data/y_val.npy \
-    --exp ./exp/
+    --exp ./exp \
     --lr 1e-4 \
     --epoch 150 \
     --swa-start 100 \
