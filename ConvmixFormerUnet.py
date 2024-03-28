@@ -7,6 +7,7 @@ import torchvision
 import einops
 from einops import rearrange, reduce
 
+
 class PASPP(nn.Module):
     def __init__(self, inplanes, outplanes, output_stride=4, BatchNorm=nn.BatchNorm2d):
         super().__init__()
